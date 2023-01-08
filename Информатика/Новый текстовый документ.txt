@@ -1,0 +1,8 @@
+javac Main.java
+cat "Main-Class: Main" > MANIFEST.mf
+java -cfm Main.jar Main.class MANIFEST.mf
+
+git init 
+git add -A
+git commit -m init
+git remite add https://github.com/s373762/Java.git 
