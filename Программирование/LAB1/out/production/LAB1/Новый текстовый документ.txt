@@ -1,0 +1,3 @@
+javac Main.java
+
+java -cmf Main.jar Main.class
